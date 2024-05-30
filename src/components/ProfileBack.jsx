@@ -8,7 +8,7 @@ import TagSVG from "../assets/TagSVG";
 
 export const ProfileBack = () => {
   return (
-    <div className=" w-full max-w-[272px] md:max-w-none md:w-[384px]h-[384px]  flex flex-col justify-between  ">
+    <div className=" w-[272px] h-[384px]  flex flex-col justify-between">
       <div className=" border rounded-lg shadow-md">
         <div className="w-full  rounded-lg">
           <img
@@ -50,7 +50,7 @@ export const ProfileBack = () => {
             />
           </div>
           <div className="  flex flex-col justify-center items-center">
-            <p className="text-[14px] font-semibold">John Doe</p>
+            <p className="text-[14px] font-semibold mt-4">John Doe</p>
             <p className="text-gray-500 text-[12px]">UI / UX Designer</p>
           </div>
         </div>

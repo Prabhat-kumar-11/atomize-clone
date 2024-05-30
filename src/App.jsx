@@ -18,7 +18,7 @@ function App() {
   return (
     <div>
       <NavBar />
-      {/* <section className="pt-[160px] pb-[96px] flex justify-center">
+      <section className="pt-[160px] pb-[96px] flex justify-center">
         <div className="max-w-[1184px] space-y-4 text-center">
           <p className="text-2xl sm:text-4xl font-bold pb-[16px] text-[56px]">
             Design System for React JS
@@ -37,7 +37,7 @@ function App() {
             </button>
           </div>
         </div>
-      </section> */}
+      </section>
 
       <CardContainer />
 
@@ -77,8 +77,8 @@ function App() {
           />
         </div>
       </section>
-      {/* <MiddleCard />
-      <CodeSection /> */}
+      <MiddleCard />
+      <CodeSection />
       <section className="w-full px-4 md:px-12 lg:px-24 pt-24 md:pt-32 lg:pt-40 justify-between items-center">
         <p className="text-2xl md:text-3xl lg:text-4xl max-w-xl mx-auto font-medium text-center">
           A combination of tools to design and develop modern applications at
@@ -89,7 +89,7 @@ function App() {
         </div>
       </section>
 
-      {/* <section className="w-full  px-[268px]  justify-between items-center mt-[80px]">
+      <section className="w-full  px-[268px]  justify-between items-center mt-[80px]">
         <LastSection />
         <div className="w-[1140px] h-[190px] py-[64px] px-[56px] bg-[#F7F8F9] flex justify-between rounded-full">
           <div className="">
@@ -107,8 +107,8 @@ function App() {
             </div>
           </div>
         </div>
-      </section> */}
-      {/* <Footer /> */}
+      </section>
+      <Footer />
     </div>
   );
 }
